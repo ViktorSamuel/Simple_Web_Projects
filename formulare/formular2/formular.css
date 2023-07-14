@@ -1,0 +1,230 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html
+{
+    background: url('img/gravel.png');
+}
+
+body
+{
+    color: #666;
+    font: normal 11px/11px 'Georgia';
+}
+
+form
+{
+    position: relative;
+    width: 480px;
+    height: 650px;
+    margin: 50px auto;
+    background: #fff;
+    box-shadow: inset 0 0 10px #f3f3f3;
+    -webkit-box-shadow: inset 0 0 10px #f3f3f3;
+    -moz-box-shadow: inset 0 0 10px #f3f3f3;
+    padding: 96px 25px 25px 25px;
+}
+
+filedset
+{
+    border: 1px solid #fff;
+    box-shadow: inset 0 0 150px #f3f3f3;
+    -webkit-box-shadow: inset 0 0 150px #f3f3f3;
+    -moz-box-shadow: inset 0 0 150px #f3f3f3;
+    
+}
+
+legend
+{
+    position: absolute;
+    top: 35px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #b3b3b3;
+    text-align: center;
+    color: #606060;   
+    font: bold 24px 'Ubuntu'
+}
+
+filedset, legend
+{
+    width: 430px;
+}
+
+legend:before, 
+legend:after
+{
+    content: '★';
+    font: 15px monospace;
+    padding: 0 10px;
+    color: #9a563a;
+    position: relative;
+    top: -3px;
+}
+
+label, button, select
+{
+    cursor: pointer;
+}
+
+label
+{
+    display: block;
+    position: relative;
+    top: -7px;
+    
+    line-height: 40px;
+    padding: 5px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    overflow: hidden;
+}
+
+label[for=name]
+{
+    border-top: 1px solid #b3b3b3;
+    
+    padding-top: 20px;
+    padding-bottom: -5px;
+}
+
+input, textarea
+{
+    font: normal 24px/18px 'Niconne';
+    color: #333;
+    border: none;
+    border-bottom: 1px dashed #b3b3b3;
+    background: transparent;
+    outline: none;
+}
+
+input, select
+{
+    width: 350px;
+    float: right;
+}
+
+select
+{
+    position: relative;
+    top: 9px;
+    font: normal 16px/16px 'Kaushan';
+    border-radius: 25px;
+    padding: 2px;
+    background: #ebeaea;
+}
+
+hr
+{
+   margin: 20px 0;
+}
+
+label.sprava
+{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 351px;
+    z-index: 2;
+    background: #fff;
+    padding: 0 20px;
+}
+
+.trought-sprava
+{
+    position: relative;
+    top: 10px;
+    z-index: 1;
+}
+
+textarea
+{
+    overflow: hidden;
+    border: none;
+    resize: none;
+}
+
+button
+{
+    position: absolute;
+    left: 42%;
+    transform: translate(-50%, -50%);
+    top: 533px;
+    z-index: 2;
+    width: 80px;
+    height: 80px;
+    background: #9d3c15;
+    border: 4px solid #dbbbae;
+    border-radius: 100%;
+    color: #fff;
+    transform: rotate(-13deg);
+    font: normal 24px/18px 'Niconne';
+    box-shadow: 0 0 0 15px #fff;
+    -webkit-box-shadow: 0 0 0 15px #fff;
+    -moz-box-shadow: i0 0 0 15px #fff;
+}
+
+.trought-button
+{
+    position: relative;
+    z-index: 1;
+    top: 60px;
+    margin: 4px 0;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

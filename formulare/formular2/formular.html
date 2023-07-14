@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulár</title>
+    <link rel="stylesheet" href="formular.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Niconne&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Niconne&family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+     <form action="#">
+         <filedset>
+            <legend>Daj nám vedeť</legend>
+           
+            <label for="name">Meno <input type="text" name="name" id="name"> </label>
+            <label for="email">Email <input type="text" name="email" id="email"> </label> 
+            <label for="webside">Webside <input type="text" name="webside" id="webside"> </label>
+            
+           <label for="krajina">Krajina
+                <select name="krajina" id="krajina">
+                <option value="1">Vyber svoju krajinu</option>
+                <option value="2">Slovensko</option>
+                <option value="3">Česko</option>
+                <option value="4">Hungary</option>
+            </select>
+           </label>
+            
+            <hr class="trought-sprava">
+            <label class="sprava" for="textarea">Správa</label>
+            <textarea name="poznamka" id="poznamka" cols="50" rows="8"></textarea>
+           
+           <button type="submit">Odošli</button>
+           
+           <hr class="trought-button">
+           <hr class="trought-button">
+         </filedset>
+     </form>
+</body>
+</html>

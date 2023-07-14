@@ -1,0 +1,69 @@
+/* Every change here request "npm run build-css" */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+    .text-shadow{
+        text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.35);
+    }
+}
+
+@layer components{
+    .card{
+        /* size */
+        @apply my-2; 
+
+        /* color */
+        @apply bg-white border-b border-gray-400; 
+
+        /* special stuff */
+        @apply cursor-pointer rounded;
+    }
+
+    .card:hover{
+        @apply bg-gray-100;
+    }
+
+    .list{
+        /* size */
+        @apply flex-shrink-0;
+        @apply w-full mb-10;
+
+        /* color */
+        @apply bg-gray-300;
+        @apply text-gray-800;
+
+        /*special stuff */
+        @apply rounded-lg shadow-xl;
+    }
+
+    /* Buttons */
+    .btn{
+        @apply text-white text-shadow font-semibold py-1 px-3 border-b border-gray-500 rounded;
+    }
+
+    .btn-green{
+        @apply bg-green-500;
+
+    }
+    .btn-green:hover,
+    .btn-green:active{
+        @apply bg-green-400;
+    }
+
+    @screen sm{
+        .list{
+            /* size */
+            @apply flex-shrink-0;
+            @apply w-80 mx-4 p-3 pb-1;
+            
+            /* color */
+            @apply bg-gray-300;
+            
+             /*special stuff */
+            @apply rounded-lg shadow-xl;
+        }
+    }
+}

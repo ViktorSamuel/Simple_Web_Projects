@@ -1,0 +1,96 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html 
+{
+    background: #401189;
+    font-family: sans-serif;
+}
+
+.box
+{
+    width: 300px;
+    padding: 40px 0;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    background: #0f0f15;
+    text-align: center;
+}
+
+.box h1
+{
+    text-transform: uppercase;
+    color: aliceblue;
+    font-weight: 500;
+}
+
+.box input[type="text"], .box input[type="email"], textarea
+{
+    display: block;
+    width: 200px;
+    margin: 15px auto;
+    background: transparent;
+    border: none;
+    border: 1px solid #401189;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 25px;
+    outline: none;
+    color: aliceblue;
+}
+
+.box input[type="text"]:focus, .box input[type="email"]:focus, textarea:focus
+{
+    transition: 0.25s;
+    width: 280px;
+    border: 1px solid #e94560;
+}
+
+.box input[type="submit"]
+{
+    width: 200px;
+    border: 1px solid #e94560;
+    background: transparent;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 0;
+    cursor: pointer;
+    border-radius: 25px;
+    color: aliceblue;
+    outline: none;
+}
+
+.box input[type="submit"]:hover
+{
+    background: #e94560;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
